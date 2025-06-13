@@ -41,7 +41,6 @@ class VectorDB:
         return [(self.id_map[i], float(D[0][j])) for j, i in enumerate(I[0]) if i < len(self.id_map)]
 
 
-# --- USAGE EXAMPLE ---
 if __name__ == "__main__":
     db = VectorDB()
 

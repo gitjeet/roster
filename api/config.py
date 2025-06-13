@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     ENV: Literal["development", "staging", "production"] = "development"
     VERSION: str = "0.1"
     SECRET_KEY: str = secrets.token_urlsafe(32)
-    DATABASE_URI: str = "mysql+pymysql://root:Ruchi%4042333@127.0.0.1:3306/dbname"
+    DATABASE_URI: str = "mysql+pymysql://root:urpswerd@127.0.0.1:3306/dbname"
 
     API_USERNAME: str = "svc_test"
     API_PASSWORD: str = "superstrongpassword"
