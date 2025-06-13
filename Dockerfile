@@ -4,7 +4,7 @@ FROM python:3.11.7
 
 WORKDIR /app
 
-COPY tavern_tests /app/tavern_tests
+
 COPY Pipfile /app
 COPY Pipfile.lock /app
 COPY .env /app/.env

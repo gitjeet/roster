@@ -1,6 +1,3 @@
-![alt text](./img/SQLModel.png)
-## FastAPI + SQLModel Boilerplate App
-A RestAPI real world app based on SQLModel [documentation example](https://sqlmodel.tiangolo.com/tutorial/), using [FastAPI](https://fastapi.tiangolo.com/) and [SQLModel](https://sqlmodel.tiangolo.com/)
 
 
 ### Quickstart
@@ -13,10 +10,5 @@ A RestAPI real world app based on SQLModel [documentation example](https://sqlmo
 
 2. <b>Use Openapi at</b>: `http://localhost:8080/#/`
 
-
-### Running Tests:
-While your app is running, open another terminal:
-`pytest -v tavern_tests/`
-
-
-![alt text](./img/SQLModelAPI_openapi.png)
+### Semantic Search
+3 `python semnatic_search.py`
